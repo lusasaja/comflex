@@ -1,15 +1,4 @@
-/* ESTILOS GENERALES */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-:root {
-  --color-black: #2f4f4f;
-  --color-white: #eaddb2;
-  --color-primary: #80b8a7;
-  --color-secondary: #e2aa6e;
-  --color-accent: #7f5836;
-  --font: "Montserrat", sans-serif;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -26,4 +15,11 @@ a {
 
 a.reset {
   text-decoration: none;
+}
+
+#app {
+  min-height: 100vh;
+  background: #2f4f4f;
+  color: #eaddb2;
+  font-family: "Montserrat", sans-serif;
 }
